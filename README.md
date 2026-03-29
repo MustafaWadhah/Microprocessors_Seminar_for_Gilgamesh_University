@@ -5,7 +5,8 @@
 <h1 align="center">Interactive Microprocessors Basics Engine</h1>
 
 <p align="center">
-  <strong>A 3D, Liquid-Glass Presentation Engine featuring Live Hardware Emulation</strong>
+  <strong>A 3D, Liquid-Glass Presentation Engine featuring Live Hardware Emulation</strong><br/>
+  <em>A Microprocessors Seminar developed by First Stage Students for the Logic Gates Material at Gilgamesh University.</em>
 </p>
 
 <div align="center">
@@ -20,11 +21,11 @@
 
 ## 📖 Overview
 
-The **Interactive Microprocessors Basics Engine** is an academic presentation completely re-engineered from the ground up as a fully interactive, single-page web application. Built without heavy frameworks, it replaces traditional PowerPoint static slides with an immersive, cyberpunk-inspired visual experience.
+The **Interactive Microprocessors Basics Engine** is an academic presentation completely re-engineered from the ground up as a fully interactive, single-page web application. It was explicitly created as a **Microprocessors Seminar** for the **Logic Gates Material** at **Gilgamesh University**. 
+
+Instead of traditional PowerPoint static slides, this project leverages an immersive, cyberpunk-inspired visual experience to demonstrate the immense technical capabilities of **First Stage** university students in creating high-tier educational software.
 
 It features **real-time Javascript-based CPU architecture emulators**, interactive logic gates, and procedurally generated background motherboard routing—all rendered live at 60 FPS in the browser. 
-
-This project was developed by the **Department of Technical Engineering: Cyber Security** at **Gilgamesh University**.
 
 ---
 

@@ -82,26 +82,9 @@ You can instantly deploy this presentation locally on your machine.
 ## 👨‍💻 Development Team
 
 This open-source educational project was directed and developed by:
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="public/images/mustafa.jpg" width="120px" style="border-radius: 50%; box-shadow: 0 0 10px #00E5FF;" /><br />
-        <b>Mustafa Wadhah Fadhil</b>
-      </td>
-      <td align="center">
-        <img src="public/images/wisam.jpg" width="120px" style="border-radius: 50%; box-shadow: 0 0 10px #00E5FF;" /><br />
-        <b>Wisam Mohammed<br />Abdul-Mounim</b>
-      </td>
-      <td align="center">
-        <img src="public/images/abdullah.jpg" width="120px" style="border-radius: 50%; box-shadow: 0 0 10px #00E5FF;" /><br />
-        <b>Abdullah Ahmed<br />Sami Badallah</b>
-      </td>
-    </tr>
-  </table>
-</div>
-<br />
+* **Mustafa Wadhah Fadhil** 
+* **Wisam Mohammed Abdul-Mounim** 
+* **Abdullah Ahmed Sami Badallah** 
 
 **Academic Affiliation:**  
 Gilgamesh University  

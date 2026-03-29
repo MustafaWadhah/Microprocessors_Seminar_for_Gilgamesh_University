@@ -18,15 +18,12 @@ const slidesData = [
         <p class="creators-title">Developed By</p>
         <div class="creators-grid">
           <div class="creator-card">
-            <img src="/images/mustafa.jpg" alt="Mustafa" class="creator-avatar">
             <p>Mustafa Wadhah Fadhil</p>
           </div>
           <div class="creator-card">
-            <img src="/images/wisam.jpg" alt="Wisam" class="creator-avatar">
             <p>Wisam Mohammed<br>Abdul-Mounim</p>
           </div>
           <div class="creator-card">
-            <img src="/images/abdullah.jpg" alt="Abdullah" class="creator-avatar">
             <p>Abdullah Ahmed<br>Sami Badallah</p>
           </div>
         </div>

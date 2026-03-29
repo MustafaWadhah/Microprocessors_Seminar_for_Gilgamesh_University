@@ -343,8 +343,8 @@ tr:last-child td {
 }
 
 .qr-image {
-  width: 220px;
-  height: 220px;
+  width: 360px;
+  height: 360px;
   border-radius: 8px;
   background: white;
   padding: 5px;

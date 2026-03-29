@@ -83,7 +83,7 @@ You can instantly deploy this presentation locally on your machine.
 
 This open-source educational project was directed and developed by:
 * **Mustafa Wadhah Fadhil** .
-* **Wisam Mohammed Abdul-Mounim** 
+* **Wisam Mohammed Abdul-Mounim**. 
 * **Abdullah Ahmed Sami Badallah** 
 
 **Academic Affiliation:**  

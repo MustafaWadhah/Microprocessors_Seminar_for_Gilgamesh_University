@@ -30,9 +30,8 @@ const slidesData = [
           </div>
         </div>
         
-        <div class="qr-box" style="text-align: center; background: rgba(0,0,0,0.3); padding: 1.5rem; border-radius: 15px; border: 1px solid var(--glass-border);">
-          <img src="/images/qr-code.jpg" alt="Project QR Code" style="width: 180px; height: 180px; border-radius: 10px; border: 2px solid var(--text-accent); box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);">
-          <p style="margin-top: 1rem; color: var(--text-accent); font-family: var(--font-heading); font-size: 1.1rem; letter-spacing: 1px;">SCAN TO VISIT</p>
+        <div class="qr-photo">
+          <img src="/images/qr-code.jpg" alt="QR Code" style="width: 180px; height: 180px; border-radius: 5px;">
         </div>
       </div>
       

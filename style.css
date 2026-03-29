@@ -279,6 +279,78 @@ tr:last-child td {
   border-bottom: 1px solid var(--glass-border);
 }
 
+.qr-drawer {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.qr-toggle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  border: 1px solid var(--text-accent);
+  color: var(--text-accent);
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.qr-toggle:hover {
+  box-shadow: 0 0 20px var(--text-accent);
+  transform: scale(1.05);
+}
+
+.qr-drawer.active .qr-toggle {
+  transform: rotate(180deg);
+  background: var(--text-accent);
+  color: #000;
+}
+
+.qr-content {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  padding: 1.5rem;
+  border-radius: 15px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px) scale(0.9);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.qr-drawer.active .qr-content {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.qr-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  background: white;
+  padding: 5px;
+  display: block;
+}
+
 .uni-logo {
   width: 100px;
   height: auto;

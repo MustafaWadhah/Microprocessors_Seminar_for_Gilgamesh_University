@@ -14,24 +14,21 @@ const slidesData = [
       </div>
       <h2 style="border:none; text-align:center; font-size: 2rem; color: var(--text-secondary); margin-top:1rem;">Architecture, Logic Gates, Assembly, and PDP-11</h2>
       
-      <div class="creators-section" style="display: flex; align-items: center; justify-content: center; gap: 4rem; padding: 2rem;">
-        <div class="creators-group">
-          <p class="creators-title" style="margin-bottom: 2rem;">Developed By</p>
-          <div class="creators-grid" style="display: flex; gap: 4rem;">
-            <div class="creator-card">
-              <p style="font-size: 1.4rem; font-weight: bold;">Mustafa Wadhah Fadhil</p>
-            </div>
-            <div class="creator-card">
-              <p style="font-size: 1.4rem; font-weight: bold;">Wisam Mohammed<br>Abdul-Mounim</p>
-            </div>
-            <div class="creator-card">
-              <p style="font-size: 1.4rem; font-weight: bold;">Abdullah Ahmed<br>Sami Badallah</p>
-            </div>
+      <div class="creators-section">
+        <p class="creators-title">Developed By</p>
+        <div class="creators-grid">
+          <div class="creator-card">
+            <img src="/images/mustafa.jpg" alt="Mustafa" class="creator-avatar">
+            <p>Mustafa Wadhah Fadhil</p>
           </div>
-        </div>
-        
-        <div class="qr-photo">
-          <img src="/images/qr-code.jpg" alt="QR Code" style="width: 180px; height: 180px; border-radius: 5px;">
+          <div class="creator-card">
+            <img src="/images/wisam.jpg" alt="Wisam" class="creator-avatar">
+            <p>Wisam Mohammed<br>Abdul-Mounim</p>
+          </div>
+          <div class="creator-card">
+            <img src="/images/abdullah.jpg" alt="Abdullah" class="creator-avatar">
+            <p>Abdullah Ahmed<br>Sami Badallah</p>
+          </div>
         </div>
       </div>
       
@@ -614,6 +611,15 @@ window.addEventListener("resize", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
+
+// QR Toggle Drawer
+const qrDrawer = document.getElementById('qr-drawer');
+const qrToggle = document.getElementById('qr-toggle');
+if (qrToggle) {
+  qrToggle.addEventListener('click', () => {
+    qrDrawer.classList.toggle('active');
+  });
+}
 
 // Boot application
 initSlides();

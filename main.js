@@ -14,18 +14,25 @@ const slidesData = [
       </div>
       <h2 style="border:none; text-align:center; font-size: 2rem; color: var(--text-secondary); margin-top:1rem;">Architecture, Logic Gates, Assembly, and PDP-11</h2>
       
-      <div class="creators-section">
-        <p class="creators-title">Developed By</p>
-        <div class="creators-grid">
-          <div class="creator-card">
-            <p>Mustafa Wadhah Fadhil</p>
+      <div class="creators-section" style="display: flex; align-items: center; justify-content: center; gap: 4rem; padding: 2rem;">
+        <div class="creators-group">
+          <p class="creators-title" style="margin-bottom: 2rem;">Developed By</p>
+          <div class="creators-grid" style="display: flex; gap: 4rem;">
+            <div class="creator-card">
+              <p style="font-size: 1.4rem; font-weight: bold;">Mustafa Wadhah Fadhil</p>
+            </div>
+            <div class="creator-card">
+              <p style="font-size: 1.4rem; font-weight: bold;">Wisam Mohammed<br>Abdul-Mounim</p>
+            </div>
+            <div class="creator-card">
+              <p style="font-size: 1.4rem; font-weight: bold;">Abdullah Ahmed<br>Sami Badallah</p>
+            </div>
           </div>
-          <div class="creator-card">
-            <p>Wisam Mohammed<br>Abdul-Mounim</p>
-          </div>
-          <div class="creator-card">
-            <p>Abdullah Ahmed<br>Sami Badallah</p>
-          </div>
+        </div>
+        
+        <div class="qr-box" style="text-align: center; background: rgba(0,0,0,0.3); padding: 1.5rem; border-radius: 15px; border: 1px solid var(--glass-border);">
+          <img src="/images/qr-code.jpg" alt="Project QR Code" style="width: 180px; height: 180px; border-radius: 10px; border: 2px solid var(--text-accent); box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);">
+          <p style="margin-top: 1rem; color: var(--text-accent); font-family: var(--font-heading); font-size: 1.1rem; letter-spacing: 1px;">SCAN TO VISIT</p>
         </div>
       </div>
       
